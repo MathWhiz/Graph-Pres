@@ -92,34 +92,29 @@
 				console.log(ct)
 				$("#chart-pres").append(ct(data));
 				console.log("Should be done!")
+				
+				Reveal.initialize({
+					controls: true,
+					progress: true,
+					history: true,
+					keyboard: true,
+					center: true,
+					touch: true,
+					help: true,
+					previewLinks: false,
+
+					transition: 'slide', // none/fade/slide/convex/concave/zoom
+					// Optional reveal.js plugins
+					dependencies: [
+						{ src: 'vendor/lib/js/classList.js', condition: function() { return !document.body.classList; } },
+						{ src: 'vendor/plugin/markdown/marked.js', condition: function() { return !!document.querySelector( '[data-markdown]' ); } },
+						{ src: 'vendor/plugin/markdown/markdown.js', condition: function() { return !!document.querySelector( '[data-markdown]' ); } },
+						{ src: 'vendor/plugin/highlight/highlight.js', async: true, condition: function() { return !!document.querySelector( 'pre code' ); }, callback: function() { hljs.initHighlightingOnLoad(); } }
+					]
+				});
 			})
 			.fail(function(){
 				alert("Fail!");
-			});
-		</script>
-		
-		<script>
-			// Full list of configuration options available at:
-			// https://github.com/hakimel/reveal.js#configuration
-			Reveal.initialize({
-				controls: true,
-				progress: true,
-				history: true,
-				keyboard: true,
-				center: true,
-				touch: true,
-				help: true,
-				previewLinks: false,
-
-				transition: 'slide', // none/fade/slide/convex/concave/zoom
-				// Optional reveal.js plugins
-				dependencies: [
-					{ src: 'vendor/lib/js/classList.js', condition: function() { return !document.body.classList; } },
-					{ src: 'vendor/plugin/markdown/marked.js', condition: function() { return !!document.querySelector( '[data-markdown]' ); } },
-					{ src: 'vendor/plugin/markdown/markdown.js', condition: function() { return !!document.querySelector( '[data-markdown]' ); } },
-					{ src: 'vendor/plugin/highlight/highlight.js', async: true, condition: function() { return !!document.querySelector( 'pre code' ); }, callback: function() { hljs.initHighlightingOnLoad(); } },
-					{ src: 'vendor/plugin/notes/notes.js', async: true }
-				]
 			});
 		</script>
 
