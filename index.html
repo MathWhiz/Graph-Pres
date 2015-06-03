@@ -89,7 +89,9 @@
 			.done(function(data){
 				console.log("data: "+data);
 				var ct = Handlebars.compile($("#chart-temp").html());
+				console.log(ct)
 				$("#chart-pres").append(ct(data));
+				console.log("Should be done!")
 			})
 			.fail(function(){
 				alert("Fail!");
