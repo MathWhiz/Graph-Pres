@@ -73,11 +73,12 @@
 		</script>
 		
 		<script>
-			var charts = $.getJSON( "charts.json")
+			var charts = $.getJSON("charts.json")
 			.done(function(data){
-				alert(data)
-			};).fail(function(){
-				alert("fail :(")
+				alert(data);
+			})
+			.fail(function(){
+				alert("fail");
 			});
 		</script>
 		
