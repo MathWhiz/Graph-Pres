@@ -91,7 +91,8 @@
 		<script>
 			var charts = $.getJSON("charts.json")
 			.done(function(data){
-				alert(data);
+				var ct = Handlebars.compile($("#chart-temp").html());
+				$("#data").after(ct(data));
 			})
 			.fail(function(){
 				alert("Fail!");
