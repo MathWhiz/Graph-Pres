@@ -76,7 +76,9 @@
 			var charts = $.getJSON( "charts.json")
 			.done(function(data){
 				alert(data)
-			};);
+			};).fail(function(){
+				alert("fail :(")
+			});
 		</script>
 		
 		<script>
