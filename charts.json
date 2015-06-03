@@ -4,7 +4,22 @@
       "Display (Numerical) Data Graphically",
       "Useful in Expressing Change"
     ],
-    "iframe": "oid=287033857",
+    "iframe": 287033857,
     "chart": "Line Chart"
+  },
+  {
+    "uses": [
+      "Similar to Line Graph"
+    ],
+    "iframe": 816026526,
+    "chart": "Area Chart"
+  },
+  {
+    "uses": [
+      "Similar to Area Chart",
+      "Shows Total"
+    ],
+    "iframe": 1590830948,
+    "chart": "Stacked Area Chart"
   }
 ]
