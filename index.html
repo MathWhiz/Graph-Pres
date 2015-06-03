@@ -43,15 +43,15 @@
 				<!-- Definition of a Chart / Example -->
 				<section>
 					<section>
-						<h1>Chart</h1>
+						<h2>Chart</h2>
 						<ul>
 							<li>Graphical Representation of Data</li>
 							<li>Represented by symbols (Bar, Slices, Color)</li>
 						</ul>
 					</section>
 					<section>
-						<h2>Example</h2>
-						<iframe src="https://docs.google.com/spreadsheets/d/1cYUrLsuM1XvfaSRDI1nE5-bWmSoUx8AeAtHRNupZkKQ/pubchart?oid=287033857&amp;format=interactive" width="483" height="295"></iframe>
+						<h3>Example</h3>
+						<iframe src="https://docs.google.com/spreadsheets/d/1cYUrLsuM1XvfaSRDI1nE5-bWmSoUx8AeAtHRNupZkKQ/pubchart?oid=287033857&format=interactive"></iframe>
 					</section>
 				</section>
 				<!-- Charts (Uses and Example) -->
@@ -68,8 +68,24 @@
 		<script src="vendor/js/reveal.js"></script>
 		<script src="vendor/js/handlebars.js"></script>
 		
-		<script>
-			
+		<script id="chart-temp" type="text/x-handlebars-template">
+			{{#each chart}}
+				<section>
+					<section>
+						<h2>{{chart}}</h2>
+						{{#if iframe}}
+							<iframe src="https://docs.google.com/spreadsheets/d/1cYUrLsuM1XvfaSRDI1nE5-bWmSoUx8AeAtHRNupZkKQ/pubchart?oid={{iframe}}&amp;format=interactive"></iframe>
+						{{/if}}
+					</section>
+						<h3>Uses</h3>
+						{{# each uses}}
+							<li>{{this}}</li>
+						{{/each}}
+					<section>
+						
+					</section>
+				</section>
+			{{/each}}
 		</script>
 		
 		<script>
@@ -78,7 +94,7 @@
 				alert(data);
 			})
 			.fail(function(){
-				alert("fail");
+				alert("Fail!");
 			});
 		</script>
 		
