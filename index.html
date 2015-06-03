@@ -29,7 +29,7 @@
 
 		<div class="reveal">
 			<!-- Slides Here -->
-			<div class="slides">
+			<div class="slides" id="#chart-pres">
 				<!-- Title -->
 				<section>
 					<h1>Charts and Their Uses</h1>
@@ -55,11 +55,7 @@
 					</section>
 				</section>
 				<!-- Charts (Uses and Example) -->
-				<span id="charts"></span>
-				<!-- Bibliography -->
-				<section>
-					
-				</section>
+				
 			</div>
 		</div>
 
@@ -93,7 +89,7 @@
 			.done(function(data){
 				console.log("data: "+data);
 				var ct = Handlebars.compile($("#chart-temp").html());
-				$("#data").after(ct(data));
+				$("#chart-pres").append(ct(data));
 			})
 			.fail(function(){
 				alert("Fail!");
