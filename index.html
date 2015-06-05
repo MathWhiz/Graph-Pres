@@ -38,7 +38,7 @@
 				<!-- Info (Google Spreadsheets, How to Insert, etc.) -->
 				<section>
 					<h1>Notice</h1>
-					<p>This presentation assumes the use of Google Spreadsheet's graphs. You can learn about how to insert graphs <a href="https://support.google.com/docs/topic/1361474">here</a>.</p>
+					<p>This presentation assumes the use of Google Spreadsheet's graphs. You can learn about how to insert graphs <a href="https://support.google.com/docs/topic/1361474" target="_blank">here</a>.</p>
 				</section>
 				<!-- Definition of a Chart / Example -->
 				<section>
@@ -68,10 +68,7 @@
 			{{#each this}}
 				<section>
 					<section>
-						<h2>{{chart}}</h2>
-					</section>
-					<section>
-						<iframe src="https://docs.google.com/spreadsheets/d/1cYUrLsuM1XvfaSRDI1nE5-bWmSoUx8AeAtHRNupZkKQ/pubchart?oid={{iframe}}&amp;format=interactive"></iframe>
+						<h2><a href="https://docs.google.com/spreadsheets/d/1cYUrLsuM1XvfaSRDI1nE5-bWmSoUx8AeAtHRNupZkKQ/pubchart?oid={{iframe}}&amp;format=interactive">{{chart}}</a></h2>
 					</section>
 					<section>
 						<h3>Notes</h3>
@@ -103,7 +100,7 @@
 					center: true,
 					touch: true,
 					help: true,
-					previewLinks: false,
+					previewLinks: true,
 
 					transition: 'slide', // none/fade/slide/convex/concave/zoom
 					// Optional reveal.js plugins

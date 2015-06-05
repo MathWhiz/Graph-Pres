@@ -76,5 +76,13 @@
       "Visually Compare"
     ],
     "iframe": 193026184
+  },
+  {
+    "chart": "Organizational Chart",
+    "uses": [
+      "Shows Structure",
+      "Visual"
+    ],
+    "iframe": 1008732956
   }
 ]
