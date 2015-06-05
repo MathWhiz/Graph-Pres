@@ -25,8 +25,7 @@
   {
     "chart": "Bar Chart",
     "uses": [
-      "Similar to Area Chart",
-      "Useful for Expressing the Change in the Total"
+      "Useful with Categories that have Subcategories"
     ],
     "iframe": 1590830948
   },
@@ -54,8 +53,9 @@
   {
     "chart": "Motion Chart",
     "uses": [
+      "Similar to Scatter Plot",
       "Dynamic Chart",
-      "Charts Multiple Values Over Time",
+      "Charts Show Values Over Time",
       "Animated"
     ],
     "iframe": 97170421
@@ -73,7 +73,7 @@
     "chart": "Gauges",
     "uses": [
       "Numeric Values",
-      "Visually Compare"
+      "Visually Comparative"
     ],
     "iframe": 193026184
   },
@@ -84,5 +84,37 @@
       "Visual"
     ],
     "iframe": 1008732956
+  },
+  {
+    "chart": "Radar Chart",
+    "uses": [
+      "Cyclic Structure",
+      "2 Varables"
+    ],
+    "iframe": 1430378981
+  },
+  {
+    "chart": "Combo Chart",
+    "uses": [
+      "Display Each Series as a Different Type",
+      "Column, Line, Area, Stepped Area"
+    ],
+    "iframe": 1990129126
+  },
+  {
+    "chart": "Tree Map",
+    "uses": [
+      "Visual Representation of A Data 'tree'",
+      "Similar to Organizational Chart"
+    ],
+    "iframe": 580824104
+  },
+  {
+    "chart": "Bubble Chart",
+    "uses": [
+      "Similar to Scatter Plot",
+      "3 'Dimensions'"
+    ],
+    "iframe": 580824104
   }
 ]
