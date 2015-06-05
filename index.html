@@ -83,14 +83,9 @@
 		<script>
 			var charts = $.getJSON("charts.json")
 			.done(function(data){
-				console.log("data: "+data);
-				console.log($("#chart-temp").html());
 				var ct = Handlebars.compile($("#chart-temp").html());
-				console.log(ct)
 				var tot = ct(data);
-				console.log(tot);
 				$("#chart-pres").append(tot);
-				console.log("Should be done!")
 				
 				Reveal.initialize({
 					controls: true,
