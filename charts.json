@@ -1,25 +1,80 @@
 [
   {
+    "chart": "Line Chart",
     "uses": [
-      "Display (Numerical) Data Graphically",
-      "Useful in Expressing Change"
+      "Display Numerical Data Graphically",
+      "Useful for Expressing Change"
     ],
-    "iframe": 287033857,
-    "chart": "Line Chart"
+    "iframe": 287033857
   },
   {
+    "chart": "Area Chart",
     "uses": [
-      "Similar to Line Graph"
+      "Only Visually Different from Line Charts"
     ],
-    "iframe": 816026526,
-    "chart": "Area Chart"
+    "iframe": 816026526
   },
   {
+    "chart": "Stacked Area Chart",
     "uses": [
       "Similar to Area Chart",
-      "Shows Total"
+      "Useful for Expressing the Change in the Total"
     ],
-    "iframe": 1590830948,
-    "chart": "Stacked Area Chart"
+    "iframe": 1590830948
+  },
+  {
+    "chart": "Bar Chart",
+    "uses": [
+      "Similar to Area Chart",
+      "Useful for Expressing the Change in the Total"
+    ],
+    "iframe": 1590830948
+  },
+  {
+    "chart": "Column Chart",
+    "uses": [
+      "Only Visually Different from Bar Charts"
+    ],
+    "iframe": 1590830948
+  },
+  {
+    "chart": "Scatter Plot",
+    "uses": [
+      "Helps Show Correlation"
+    ],
+    "iframe": 2009779775
+  },
+  {
+    "chart": "Pie Chart",
+    "uses": [
+      "Shows Proportions of Total"
+    ],
+    "iframe": 387615134
+  },
+  {
+    "chart": "Motion Chart",
+    "uses": [
+      "Dynamic Chart",
+      "Charts Multiple Values Over Time",
+      "Animated"
+    ],
+    "iframe": 97170421
+  },
+  {
+    "chart": "Sparkline",
+    "uses": [
+      "Separated Line Charts",
+      "One or More Categories of Data",
+      "Over Time"
+    ],
+    "iframe": 594724874
+  },
+  {
+    "chart": "Gauges",
+    "uses": [
+      "Numeric Values",
+      "Visually Compare"
+    ],
+    "iframe": 97170421
   }
 ]
