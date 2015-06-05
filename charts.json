@@ -27,14 +27,14 @@
     "uses": [
       "Useful with Categories that have Subcategories"
     ],
-    "iframe": 1590830948
+    "iframe": 504067635
   },
   {
     "chart": "Column Chart",
     "uses": [
       "Only Visually Different from Bar Charts"
     ],
-    "iframe": 1590830948
+    "iframe": 428904766
   },
   {
     "chart": "Scatter Plot",
@@ -115,6 +115,6 @@
       "Similar to Scatter Plot",
       "3 'Dimensions'"
     ],
-    "iframe": 580824104
+    "iframe": 214809198
   }
 ]
